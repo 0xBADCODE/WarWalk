@@ -1,4 +1,4 @@
-/* WarWalk 1.0
+/* WarWalk 1.0 beta
  * Written by Xeon Nov 2012
  */
 
