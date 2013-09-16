@@ -1,0 +1,21 @@
+# view AndroidManifest.xml #generated:36
+-keep class net.blackhack.warwalk.Author { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class net.blackhack.warwalk.DBViewer { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class net.blackhack.warwalk.Syslog { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class net.blackhack.warwalk.WarWalk { <init>(...); }
+
+# onClick res/layout/additional.xml #generated:30
+-keepclassmembers class * { *** cls(...); }
+
+# onClick res/layout/menu.xml #generated:7
+-keepclassmembers class * { *** onToggleClick(...); }
+
+# onClick res/layout/author_buttons.xml #generated:8
+-keepclassmembers class * { *** writeStatistics(...); }
+

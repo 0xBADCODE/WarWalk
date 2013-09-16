@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_dbviewer"
+    	  android:icon="@drawable/icon_save"
+          android:title="View Database" />
+    <item android:id="@+id/menu_preferences"
+    	  android:icon="@drawable/icon_preferences"
+          android:title="Test" />
+    <item android:id="@+id/menu_syslog"
+    	  android:icon="@drawable/icon_bookmark"
+          android:title="Log" />
+    <item android:id="@+id/menu_author"
+    	  android:icon="@drawable/icon_more"
+          android:title="About" />
+</menu>

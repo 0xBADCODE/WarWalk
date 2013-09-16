@@ -1,0 +1,60 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.blackhack.warwalk"
+    android:versionCode="1"
+    android:versionName="beta" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    
+     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+     <uses-permission android:name="android.permission.WAKE_LOCK" />
+     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+     <uses-permission android:name="android.permission.INTERNET"/>
+    
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher3"
+        android:label="@string/app_name"
+    	android:theme="@string/theme" >
+        <activity
+            android:name=".WarWalk"
+            android:label="@string/title_activity_war_walk"
+            android:configChanges="keyboardHidden|orientation" >
+  //          android:debuggable="true" 
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+        	android:name=".Author"
+        	android:label="@string/title_activity_author"
+        	android:screenOrientation="portrait">
+        	<meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="net.blackhack.WarWalk.Author" />
+    	</activity>
+    	<activity
+        	android:name=".DBViewer"
+        	android:label="@string/title_activity_dbviewer" >
+        	<meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="net.blackhack.WarWalk.DBViewer" />
+    	</activity>
+        <activity
+        	android:name=".Syslog"
+        	android:label="@string/title_activity_syslog"
+        	android:screenOrientation="portrait">
+        	<meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="net.blackhack.WarWalk.Syslog" />
+    	</activity>
+    </application>
+</manifest>

@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">WarWalk</string>
+    <string name="theme">@android:style/Theme.Black.NoTitleBar</string>
+    <string name="title_activity_war_walk">WarWalk</string>
+    <string name="title_activity_author">WarWalk - Author</string>
+    <string name="title_activity_dbviewer">WarWalk - DBViewer</string>
+    <string name="title_activity_syslog">WarWalk - Log</string>
+    <string name="text_on">Stop</string>
+    <string name="text_off">Scan</string>
+    <string name="geolocation">GeoTag</string>
+    <string name="delaynumber">0</string>
+    <string name="delaytext">Delay(s)</string>
+    <string name="clearscreen">Clear</string>
+    <string name="emailbutton">Send Database</string>
+    <string name="statsbutton">Calculate Statistics</string>
+    <string name="dblisttitle">Networks Database</string>
+    <string name="viewing">(Viewing: All)</string>
+  
+</resources>
